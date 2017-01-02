@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CCC</title>
+<link rel="shortcut icon" href="../../img/nielit-shortcut-icon.png" />
+<link rel="stylesheet" type="text/css" href="../../css/sheet.css">
+<style>
+p{ margin:10px;}
+</style>
+</head>
+
+<body>
+   
+   	<font color="#000080">
+	<h3>Chapter 4<img src="../../img/nsi.png" align="right"></h3></font>
+    	<font class="light"><i><b>
+    	4.Spread Sheet</font></br>
+        <font class="deep">
+      4.2 Elements of Electronics Spread Sheet</font></b></i><br>
+      <font class="light">
+     	4.2.2 Addressing of Cells</b></i></font>  
+	</div><hr>
+    
+<div align="center"><img src="img/c4.2.2pg3.jpg" align="middle" height="150" width="700"></div></p><p align="justify">
+     <p align="justify">
+The intersection of a column and a row is called a cell. The cell located at the intersection of column A and row 1 shall be referred to or addressed as A1<br><br>
+There are three types of references: relative references, absolute references, and mixed references.<br><br>
+<b>1.	Relative Addressing </b><br><br>
+When a formula is copied to another cell, it shows the positional relationship among the cells and therefore this type of addressing is called RELATIVE ADDRESSING.<br><br>
+Example:<br><br>
+Suppose the cell E4 contains the formula =B4+C4+D4. <br><br>
+EXCEL offers a command with which contents of a cell or a group of cells can be copied to another cell or group of cells.<br><br>
+When using that 'Copy command' the formula in E4 is copied to cell E5, <br><br>
+EXCEL copies it as =B5+C5+D5. <br><br>
+This means that EXCEL does not record the formula in E4 (or E5) as sum of the values in cells B4, C4, D4 or (B5, C5, D5). <br><br>
+Both the formulas mean "The sum of the values in the three columns to the left in the same row".<br><br>
+Similarly a copy of the formula in cell E6 will be =B6+C6+D6.<br><br>
+
+<b>2.	Absolute Addressing</b><br><br>
+Referring to the value in a cell rather than the position of the cell is called ABSOLUTE ADDRESSING.<br><br>
+Example :<br><br>
+To compute percentage marks obtained by all the students, the formula should be (Marks Obtained/Total Marks) * 100. To do so, we want that formula  ( =E4/D10 * 100) contained in F4 when copied to F5, F6, F7, F8 should always refer to value in cell D10, the formula in F4 should be written as :  =E4/$D$10 *100 . <br><br>
+When copied to cells F5, F6, F7, F8 the formula will appear as :<br><br>
+F5	: 	=E5/$D$10 *100<br><br>
+F6	: 	=E6/$D$10 *100<br><br>
+F7	: 	=E7/$D$10 *100<br><br>
+F8	:	=E8/$D$10 *100<br><br>
+EXCEL uses a '$' (dollar) sign to distinguish the absolute address from relative address. <br><br>
+The value of $D$10 cell, being absolute address, remains fixed in all the formulas .<br><br>
+
+<b>3.	Mixed Addressing</b><br><br>
+"$C$4" makes both the column and row absolute. <br><br>
+On the other hand "$C4" or "C$4" are treated as half-relative, half-absolute and such addressing is called MIXED ADDRESSING.<br><br>
+Example :<br><br>
+Now if a formula is typed using different cell addressing in D7 and the formula is copied to cells D8, D9, D10, E7, E8, the result according to cell addressing technique used, is shown in the figure.<br><br>
+A formula can contain both absolute and relative addresses. 
+
+
+</p></br><br>
+
+
+</body>
+    <div class="overlay">
+    <a href="c4.htm"><img src="../../img/home.png" align="left"></a>
+    <a href="c4_2_3.htm"><img src="../../img/next.png" align="right"></a>
+    </div>
+    <div id="footer" align="center">
+    <a href="#" class="back-to-top"><img src="../../img/back-to-top-button.png" align="right"></a>
+    </br>
+    <font color="#3695e4" face="Comic Sans MS, cursive" size="2">
+    NIELIT Agartala Centre © 2016<br>All rights reserved.</font>
+    </div>
+
+</html>

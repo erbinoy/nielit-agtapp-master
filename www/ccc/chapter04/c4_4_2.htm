@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CCC</title>
+<link rel="shortcut icon" href="../../img/nielit-shortcut-icon.png" />
+<link rel="stylesheet" type="text/css" href="../../css/sheet.css">
+<style>
+p{ margin:10px;}
+</style>
+</head>
+
+<body>
+    
+   
+   	<font color="#000080">
+	<h3>Chapter 4<img src="../../img/nsi.png" align="right"></h3></font>
+    	<font class="light"><i><b>
+    	4.Spread Sheet</font></br></i>
+       <font class="deep"><i><b>
+      4.4 Functions and Charts</font></b></i><br>
+       <font class="light"><i><b>
+     	4.4.2 Functions</b></i></font>  
+	
+    </div><hr>
+    
+     <p align="justify">
+Functions are small programs that return a value based on some calculation, comparison or evaluation. All function names are followed by a pair of parentheses, which are used to enclose the argument or arguments required by the function. A comma is used to separate each argument. Excel contains about 250 readymade functions, some of which are being introduced in the coming up section.<br><br>
+<b>Sum Function</b><br><br>
+It adds all the numbers in a range of cells. It can be used in two ways.  <br><br>
+<b>AutoSum Button</b><br><br>
+When you use the AutoSum button, Microsoft Excel types the function for you and even suggests the range of cells you may want to add. To enter a sum formula, select a cell adjacent to row or column of numbers you want to add and click the AutoSum button.<br><br>
+<b>Using the Function Wizard</b><br><br>
+Whenever you want to use a built-in Microsoft Excel function you can use the Function Wizard to help you select a function, assemble the arguements correctly and insert the function into the formula. To add a function to a formula, activate the function wizard by clicking the Function Wizard button. When you click the Finish button, the selected function is inserted into your formula with the arguements'  names inserted as placeholders.<br><br>
+
+<b>Average Function</b> It returns the average(arithmetic mean) of its arguments which can be numbers or references that contains numbers. Average can be calculated in two ways <br><br>
+&gt; By applying average formula through function wizard<br><br>
+Through function wizard it will prompt you to enter the values or range and give  output in the appropriate cell. <br><br>
+&gt; By adding the individual cells and dividing it by the count of cells<br><br>
+Firstly either mention the specific cell address or numbers in the parentheses, then divide it by the count of cells or numbers.<br><br>
+for example:<br><br>
+=(b3+c6+d9)/3<br><br>
+=(23+34+45)/3<br><br>
+
+<b>Other Functions</b><br><br>
+<i> Mathematical Functions</i><br><br> 
+INT : Rounds a supplied number down to a whole integer<br><br>
+	Example :  =int(45.6) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   	 output : 45<br><br>
+FLOOR : Rounds a supplied number down to a supplied significance<br><br>
+	Example :  =floor(35,2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	 output :34<br><br>
+CEILING : Rounds a supplied number up to a supplied significance<br><br>
+	Example :  =ceiling(35,2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	 output :36<br><br>
+ROUND : Rounds a supplied number up or down, to a specified number of digits<br><br>
+	Example :  =round(123.73,1)	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; output :123.7<br><br>
+	         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =round(345.78,0)	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; output :346<br><br>
+ABS : Absolute function converts negative value into positive value<br><br>
+	Example :  =abs(-67)	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 output :67<br><br>
+<i>Date & Time Functions  </i><br><br>
+<B>NOW :</B> Returns the current date and time e.g =now()<br><br>
+<b>TODAY :</b> Returns today's date  e.g =today()<br><br>
+
+<i> Statistical Functions </i><br><br>
+ COUNT : Returns the number of numerical values in a supplied set of cells or values<br><br>
+	Example :  =count(e3:e10)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 output :7<br><br>    
+ MAX : Returns the greatest value from a list of supplied numbers<br><br>
+	Example :  =Max(c3:c7)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     output :10000<br><br>
+ MIN : Returns the smallest value from a list of supplied numbers<br><br>
+	Example :  =Min(c3:c7)      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    output : 6000<br><br>
+<i>Logical Functions  </i><br><br>
+ IF : Tests a user-defined condition and returns one result if the condition is true and another result if the condition is false <br><br>
+	In the result, we can display the text value as well as we can do calculations.<br><br>
+	Example :<br><br> a) If basic pay in cell C3 is greater than 10000 then commission is 10% otherwise 5%.<br><br>
+			 =if(c3>10000 ,c3*10/100,c3*5/100)<br><br>
+	          b) If basic pay in Cell C3 is greater than 10000 then Desig is SSA otherwise SA.<br><br>
+			 =if(c3>10000,"SSA","SA")
+
+
+</p></br><br>
+
+</body>
+    <div class="overlay">
+    <a href="c4.htm"><img src="../../img/home.png" align="left"></a>
+    <a href="c4_4_3.htm"><img src="../../img/next.png" align="right"></a>
+    </div>
+    <div id="footer" align="center">
+    <a href="#" class="back-to-top"><img src="../../img/back-to-top-button.png" align="right"></a>
+    </br>
+    <font color="#3695e4" face="Comic Sans MS, cursive" size="2">
+    NIELIT Agartala Centre © 2016<br>All rights reserved.</font>
+    </div>
+
+</html>
